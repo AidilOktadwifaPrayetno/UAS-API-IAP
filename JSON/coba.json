@@ -1,0 +1,30 @@
+[
+    {
+         "nama": "Aidil Oktadwifa Prayetno", 
+         "umur": 21,
+         "nrp": "2217020079",
+         "lulus": true,
+         "hobby": [
+             "coding",
+             "gaming"
+        ],
+         "pembimbing": {
+         "pembimbing1": "Ahmad Fhadil",
+         "pembimbing2": "Alkhafi Kurniawan"
+        }
+    },
+    {
+         "nama": "Fadira Az-zahra", 
+         "umur": 21,
+         "nrp": "2217020001",
+         "lulus": true,
+         "hobby": [
+             "Nyanyi",
+             "Makan"
+        ],
+         "pembimbing": {
+         "pembimbing1": "Mellya Putri",
+         "pembimbing2": "Annisa Ahda"
+        }
+    }
+]
