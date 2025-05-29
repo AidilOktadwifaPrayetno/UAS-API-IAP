@@ -110,7 +110,7 @@ $config['rest_realm'] = 'REST API';
 |           authorization key
 |
 */
-$config['rest_auth'] = FALSE;
+$config['rest_auth'] = 'basic';
 
 /*
 |--------------------------------------------------------------------------
@@ -137,8 +137,8 @@ $config['auth_source'] = '';
 | requests etc), set to TRUE;
 |
 */
-$config['allow_auth_and_keys'] = FALSE;
-$config['strict_api_and_auth'] = FALSE; // force the use of both api and auth before a valid api request is made
+$config['allow_auth_and_keys'] = true;
+$config['strict_api_and_auth'] = true; // force the use of both api and auth before a valid api request is made
 
 /*
 |--------------------------------------------------------------------------
@@ -211,7 +211,7 @@ $config['auth_library_function'] = '';
 | Array of usernames and passwords for login, if ldap is configured this is ignored
 |
 */
-$config['rest_valid_logins'] = [];
+$config['rest_valid_logins'] = ['admin' => '1234', 'aidil' => '231003'];
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +324,7 @@ $config['rest_keys_table'] = 'keys';
 |   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 |
 */
-$config['rest_enable_keys'] = FALSE;
+$config['rest_enable_keys'] = true;
 
 /*
 |--------------------------------------------------------------------------
@@ -487,7 +487,7 @@ $config['rest_logs_json_params'] = FALSE;
 |
 | See application/controllers/api/example.php for examples
 */
-$config['rest_enable_limits'] = FALSE;
+$config['rest_enable_limits'] = true;
 
 /*
 |--------------------------------------------------------------------------

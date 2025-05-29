@@ -14,6 +14,11 @@ class Mahasiswa extends REST_Controller
         parent::__construct();
         $this->load->model('Mahasiswa_model', 'mahasiswa');
 
+        // <------- Batas penggunaan API ------->
+        $this->methods['index_get']['limit'] = 50;
+        $this->methods['index_delete']['limit'] = 50;
+        $this->methods['index_put']['limit'] = 50;
+        $this->methods['index_post']['limit'] = 50;
 
     }
 
