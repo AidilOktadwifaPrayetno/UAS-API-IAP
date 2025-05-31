@@ -56,7 +56,7 @@ $media = $igData['media']['data'] ?? [];
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home">Sandhika Galih</a>
+        <a class="navbar-brand" href="#home">Aidil Oktadwifa Prayetno</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -81,8 +81,8 @@ $media = $igData['media']['data'] ?? [];
       <div class="container">
         <div class="text-center">
           <img src="img/profile1.png" class="rounded-circle img-thumbnail">
-          <h1 class="display-4">Sandhika Galih</h1>
-          <h3 class="lead">Lecturer | Programmer | Youtuber</h3>
+          <h1 class="display-4">Aidil Oktadwifa Prayetno</h1>
+          <h3 class="lead">Gamers| Programmer | Youtuber</h3>
         </div>
       </div>
     </div>
